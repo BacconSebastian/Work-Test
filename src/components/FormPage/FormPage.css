@@ -1,0 +1,36 @@
+.form {
+    margin: 2rem;
+}
+
+.form h1 {
+    margin-bottom: 2rem;
+}
+
+.form .btn {
+    margin-top: 2rem;
+}
+
+.mb-3 {
+    display: flex;
+    align-items: center;
+    width: 80vw;
+}
+
+.mb-3 label {
+    width: 20vw;
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.mb-3 input {
+    width: 60vw;
+}
+
+#control {
+    opacity: 0;
+}
+
+#control.active {
+    opacity: 1;
+    color: red;
+}
